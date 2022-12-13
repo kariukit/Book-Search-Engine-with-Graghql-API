@@ -86,15 +86,15 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ![21-mern-homework-demo-01](https://user-images.githubusercontent.com/108309963/207435926-845da3be-af88-4f40-852e-48ba22d3557c.gif)
 
- In the animation above, a user can type a search term (in this case, "star wars") in a search box and the results appear
+ 1. In the animation above, a user can type a search term (in this case, "star wars") in a search box and the results appear
  
  ![21-mern-homework-demo-02](https://user-images.githubusercontent.com/108309963/207436216-18c1d053-2f27-41c0-984d-405aa19bb784.gif)
  
- In the animation above, the user can save books by clicking "Save This Book!" under each search result, as shown in the following animation
+ 2. In the animation above, the user can save books by clicking "Save This Book!" under each search result, as shown in the following animation
  
  ![21-mern-homework-demo-03](https://user-images.githubusercontent.com/108309963/207436429-98e0f2c4-05a5-4371-aed5-3702a6b1e091.gif)
  
- A user can view their saved books on a separate page, as shown in the animation above
+ 3. A user can view their saved books on a separate page, as shown in the animation above
  
  # D) The link below shows the deployed app on heroku and the app's actual functionality:
  
