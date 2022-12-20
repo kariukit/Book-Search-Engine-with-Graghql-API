@@ -4,16 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./Develop/server && npm start",
+    "start:prod": "cd ./Develop/server && npm start",
+    "start:dev": "concurrently \"cd ./Develop/server && node server.js\" \"cd ./Develop/client && npm start\"",
+    "install": "cd ./Develop/server && npm i && cd ./Develop/client && npm i",
+    "seed": "cd ./Develop/server && npm run seed",
+    "watch": "nodemon server.js",
+    "heroku-postbuild": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kariukit/Book-Search-Engine-with-Graghql-API.git"
   },
-  "author": "",
+  "author": "Teresa Kariuki",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kariukit/Book-Search-Engine-with-Graghql-API/issues"
   },
-  "homepage": "https://github.com/kariukit/Book-Search-Engine-with-Graghql-API#readme"
+  "homepage": "https://github.com/kariukit/Book-Search-Engine-with-Graghql-API#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "watch": "^1.0.2"
+  }
 }
